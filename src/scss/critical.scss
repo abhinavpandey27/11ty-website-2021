@@ -13,7 +13,7 @@
   body {
     background: get-color('light');
     color: get-color('dark-shade');
-    line-height: 1.55;
+    line-height: 1.6;
     font-size: get-size('500');
     font-smooth: always;
     @include apply-utility('font', 'base');
