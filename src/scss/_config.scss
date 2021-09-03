@@ -77,7 +77,7 @@ $gorko-config: (
   'font': (
     'items': (
       'base': '"Besley", Georgia, serif',
-      'sans': '"Besley", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      'sans': '"Public Sans", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
     ),
     'output': 'standard',
     'property': 'font-family',
@@ -91,7 +91,7 @@ $gorko-config: (
     'items': (
       'loose': 1.7,
       'tight': 1.3,
-      'flat': '1.1',
+      'flat': '1.0',
     ),
     'output': 'standard',
     'property': 'line-height',
