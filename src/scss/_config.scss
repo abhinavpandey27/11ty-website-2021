@@ -11,12 +11,12 @@ $gorko-base-size: 1rem;
  * This is a Perfect Fourth scale that powers all the utilities that
  * it is relevant for (font-size, margin, padding). All items are
  * calcuated off the base size, so change that and cascade across
- * your whole project.
+ * your whole project. 1.29
  */
 $gorko-size-scale: (
   '300': $gorko-base-size * 0.77,
   '400': $gorko-base-size,
-  '500': $gorko-base-size * 1.1,
+  '500': $gorko-base-size * 1.29,
   '600': $gorko-base-size * 1.66,
   '700': $gorko-base-size * 2.14,
   '800': $gorko-base-size * 2.76,
@@ -31,9 +31,9 @@ $gorko-size-scale: (
  */
 $gorko-colors: (
   'dark': #38445b,
-  'dark-shade': #313549,
+  'dark-shade': hsla(229, 34%, 15%, 0.9),
   'dark-glare': #505c73,
-  'light': #FCFDFE,
+  'light': hsla(208, 50%, 99%, 1),
   'light-shade': #fff6d7,
   'light-glare': #fdfbf3,
   'primary': #513aa6,

@@ -15,7 +15,7 @@
     color: get-color('dark-shade');
     line-height: 1.6;
     font-size: get-size('500');
-    font-smooth: always;
+    
     @include apply-utility('font', 'base');
     
   }
@@ -71,6 +71,13 @@
     border-radius: 0.25rem;
   }
   
+  @import 'blocks/site-foot';
+  @import 'blocks/site-head';
+  @import 'blocks/nav';
+  
+  @import 'blocks/button';
+  @import 'blocks/skip-link';
+
 
 // Import blocks
 @import 'blocks/definition-group';
